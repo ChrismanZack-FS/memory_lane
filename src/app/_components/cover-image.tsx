@@ -21,7 +21,9 @@ const CoverImage = ({ title, src, slug }: Props) => {
 		/>
 	);
 	return (
-		<div className="sm:mx-0">{slug ? <img src="/cover.jpg" /> : image}</div>
+		<div className="sm:mx-0">
+			<img src={"/cover.jpg"} />{" "}
+		</div>
 	);
 };
 
