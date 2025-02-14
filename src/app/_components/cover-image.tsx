@@ -11,7 +11,7 @@ type Props = {
 const CoverImage = ({ title, src, slug }: Props) => {
 	const image = (
 		<Image
-			src={src}
+			src={"./cover.jpg"}
 			alt={`Cover Image for ${title}`}
 			className={cn("shadow-sm w-full", {
 				"hover:shadow-lg transition-shadow duration-200": slug,
@@ -22,7 +22,13 @@ const CoverImage = ({ title, src, slug }: Props) => {
 	);
 	return (
 		<div className="sm:mx-0">
-			<img src={"/cover.jpg"} />{" "}
+			{slug ? (
+				<Link href={`/posts/${slug}`} aria-label={title}>
+					{image}
+				</Link>
+			) : (
+				image
+			)}
 		</div>
 	);
 };
