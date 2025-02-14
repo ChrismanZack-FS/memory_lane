@@ -1,7 +1,7 @@
 ---
 title: "CSS"
 excerpt: "If I had to describe CSS I would describe it as finicky."
-coverImage: "$/memory-lane/assets/blog/hello-world/cover.jpg"
+coverImage: "/memory-lane/assets/blog/hello-world/cover.jpg"
 date: "2025-02-07T05:35:07.322Z"
 author:
   name: Zack Chrisman
