@@ -1,11 +1,11 @@
 ---
 title: "React-Native"
 excerpt: "So I think React-Native is super awesome."
-
+coverImage: "blog-starter-app/public/cover copy.jpg"
 date: "2025-02-20T05:35:07.322Z"
 author:
   name: Zack Chrisman
-  ogImage:
+ogImage:
   url: "blog-starter-app/public/cover copy.jpg"
 ---
 
