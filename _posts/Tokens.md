@@ -1,6 +1,6 @@
 ---
 title: "Tokens"
-excerpt: "So I think React-Native is super awesome."
+excerpt: "No matter where you go on the internet there are JWTs so I really want to get a good handle on them."
 coverImage: "blog-starter-app/public/cover copy.jpg"
 date: "2025-02-27T05:35:07.322Z"
 author:
